@@ -45,11 +45,5 @@ namespace gotowebinar.Services.Tests
             Assert.Fail();
         }
 
-        //[TestMethod()]
-        //public async Task GetAccessTokenAsync_2Test()
-        //{
-        //    var response = await _clientServices.GetAccessTokenAsync(authorizationCode);
-        //    Assert.Fail();
-        //}
     }
 }
