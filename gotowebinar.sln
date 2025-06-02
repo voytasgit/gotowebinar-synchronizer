@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gotowebinar", "gotowebinar\gotowebinar.csproj", "{18884C18-F0EA-4F2F-805E-237BC029899E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{F796F53F-DDD0-4772-A427-A8CCE076AFF5}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+		readme_2.txt = readme_2.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gotowebinarTests", "gotowebinarTests\gotowebinarTests.csproj", "{0585F678-5812-47D5-B9D9-F9CE9E8922CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18884C18-F0EA-4F2F-805E-237BC029899E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18884C18-F0EA-4F2F-805E-237BC029899E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18884C18-F0EA-4F2F-805E-237BC029899E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18884C18-F0EA-4F2F-805E-237BC029899E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0585F678-5812-47D5-B9D9-F9CE9E8922CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0585F678-5812-47D5-B9D9-F9CE9E8922CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0585F678-5812-47D5-B9D9-F9CE9E8922CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0585F678-5812-47D5-B9D9-F9CE9E8922CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85BBAD6F-DBE5-4282-A83D-F2522506EF78}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://s44-tfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = gotowebinar\\gotowebinar.csproj
+		SccProjectName1 = gotowebinar
+		SccLocalPath1 = gotowebinar
+		SccProjectUniqueName2 = gotowebinarTests\\gotowebinarTests.csproj
+		SccProjectName2 = gotowebinarTests
+		SccLocalPath2 = gotowebinarTests
+	EndGlobalSection
+EndGlobal
