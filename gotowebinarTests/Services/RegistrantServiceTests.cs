@@ -41,8 +41,8 @@ namespace gotowebinar.Services.Tests
             var accessToken = await _clientServices.RefreshAccessTokenAsync();
             if (accessToken == null)
                 throw new Exception("Cant't get accessToken");
-            string organiserKey = "1640932452130871566"; // ap
-            string webinarKey = "6401117446996529757"; // ETF 5 Feb 2025
+            string organiserKey = "1234567890"; // ap
+            string webinarKey = "12345"; // 
             var response = await _service.GetRegistrantsAsync(organiserKey, webinarKey, 0, 100, accessToken);
             var v2 = response.Data;
             Assert.Fail();
