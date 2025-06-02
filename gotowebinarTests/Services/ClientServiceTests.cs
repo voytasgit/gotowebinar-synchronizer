@@ -14,7 +14,7 @@ namespace gotowebinar.Services.Tests
     public class ClientServiceTests
     {
         // manually got, s. readme
-        string authorizationCode = "eyJraXX...";
+        string authorizationCode = "XXXXXXX...";
 
         private readonly IClientService _clientServices;
         public ClientServiceTests()
