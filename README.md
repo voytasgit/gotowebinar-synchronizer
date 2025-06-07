@@ -33,21 +33,5 @@ This tool uses your GoToWebinar API credentials to:
 This software is provided "as is", without warranty of any kind.  
 Use it at your own risk. The maintainers and contributors are not responsible for any damage or data loss resulting from its use.
 
-## Configuration
 
-Create an `appsettings.json` file with the following structure:
-
-```json
-{
-  "FileConfig": {
-    "FromDateBackward": "-3",
-    "ToDateForward": "3",
-    "DummyPhone": "+491234567890"
-  },
-  "GoToWebinar": {
-    "ClientId": "...",
-    "ClientSecret": "...",
-    "RefreshToken": "..."
-  }
-}
 
